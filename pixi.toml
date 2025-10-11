@@ -1,0 +1,13 @@
+[workspace]
+authors = ["Sangeetha Nandakumar <98574336+sangeethankumar@users.noreply.github.com>"]
+channels = ["conda-forge"]
+name = "German Revision Helper"
+platforms = ["win-64"]
+version = "0.1.0"
+
+[tasks]
+
+[dependencies]
+python = "3.10.*"
+hugo = ">=0.151.0,<0.152"
+pyyaml = ">=6.0.3,<7"
