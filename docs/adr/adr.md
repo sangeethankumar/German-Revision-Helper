@@ -1,6 +1,6 @@
 # ADR-001: Site Architecture (v1)
 
-**Status**: Proposed
+**Status**: Accepted
 
 **Date**: 11-10-2025
 
