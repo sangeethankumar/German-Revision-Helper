@@ -2,3 +2,8 @@
 # pixi environments
 .pixi
 *.egg-info
+
+# Hugo 
+german-revision-helper/public/
+german-revision-helper/resources/
+german-revision-helper/.hugo_build.lock
