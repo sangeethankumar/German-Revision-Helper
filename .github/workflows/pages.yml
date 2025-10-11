@@ -1,0 +1,10 @@
+name: CI stub (Hugo)
+on:
+    push: 
+        branches: [ main ]
+jobs: 
+    hugo-test:
+        runs-on: ubuntu-latest
+        defaults:
+            run:
+                working-directory: german-revision-helper
