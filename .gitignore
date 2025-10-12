@@ -3,6 +3,9 @@
 .pixi
 *.egg-info
 
+# data
+source/
+
 # Hugo 
 german-revision-helper/public/
 german-revision-helper/resources/
