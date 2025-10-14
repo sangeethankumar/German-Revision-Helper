@@ -9,6 +9,12 @@ theme = "ananke"
   site_logo = ""            
   author = "SNK"
   description = "Personalized website to learn German language"
+  show_recent_posts = false   # hides the list on the homepage
+  recent_posts_number = 0     # belt-and-suspenders
+  mainSections = []           # ensures nothing is considered "posts"
+  center = false
+  align = "left"
+
 
 [menu]
   [[menu.main]]
@@ -31,3 +37,18 @@ theme = "ananke"
     name = "Writing"
     url = "/daily-paragraph/"
     weight = 5
+
+
+  [params.ananke.social.share]
+  icons = true 
+  sharetext = true 
+  networks = [
+    "email",
+    "linkedin"
+  ]
+
+  [params.ananke.social.follow]
+  networks = ["github"]
+
+  [params.ananke.social.networks.github]
+  profile = "https://github.com/sangeethankumar"
