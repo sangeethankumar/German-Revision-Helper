@@ -1,3 +1,5 @@
-baseURL = 'https://German-Revision-Helper.org/'
-languageCode = 'en-us'
-title = 'German Revision Helper'
+baseURL = "https://sangeethankumar.github.io/German-Revision-Helper/"
+languageCode = "en-us"
+title = "German Revision Helper"
+publishDir = "../docs"
+canonifyURLs = true
