@@ -1,3 +1,3 @@
 ---
-title: "Vocabulary"
+title: "vocabulary"
 ---

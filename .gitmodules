@@ -1,0 +1,3 @@
+[submodule "german-revision-helper/themes/ananke"]
+	path = german-revision-helper/themes/ananke
+	url = https://github.com/theNewDynamic/gohugo-theme-ananke.git

@@ -3,3 +3,31 @@ languageCode = "en-us"
 title = "German Revision Helper"
 publishDir = "../docs"
 canonifyURLs = true
+theme = "ananke"
+
+[params]
+  site_logo = ""            
+  author = "SNK"
+  description = "Personalized website to learn German language"
+
+[menu]
+  [[menu.main]]
+    name = "Grammar"
+    url = "/grammar/"
+    weight = 1
+  [[menu.main]]
+    name = "Vocabulary"
+    url = "/vocabulary/"
+    weight = 2
+  [[menu.main]]
+    name = "Verbs"
+    url = "/verb/"
+    weight = 3
+  [[menu.main]]
+    name = "Phrases"
+    url = "/phrases/"
+    weight = 4
+  [[menu.main]]
+    name = "Writing"
+    url = "/daily-paragraph/"
+    weight = 5

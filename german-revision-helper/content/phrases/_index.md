@@ -1,3 +1,3 @@
 ---
-title: "Phrases"
+title: "phrases"
 ---
