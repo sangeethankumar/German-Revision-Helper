@@ -11,16 +11,18 @@ Source: "Harry Potter und der Stein der Weisen"
 ## [Grammar Concept 1 Title]
 ```sectionmeta
 section: Grammar Concept
-level: A1                # one of: A1, A2, B1
+level: A1                # one of: A1, A2, B1, B2, C1, C2
 topics: [Word Order]     # zero or more from Allowed Topics
 usage: [Common]          # zero or more from Allowed Usage
 themes: [Daily Life]     # zero or more from Allowed Themes
 context: [Harry Potter, Book Based Learning]  # zero or more from Allowed Contexts
-```
+````
+
 **Explanation:**
-(Detailed explanation as a teacher for English-speaking learners. Includes examples and notes on spoken/written usage.)
+(Detailed explanation for English-speaking learners. Include examples and notes on spoken/written usage.)
 
 ## [Grammar Concept 2 Title]
+
 ```sectionmeta
 section: Grammar Concept
 level: A2
@@ -29,6 +31,7 @@ usage: [Common]
 themes: []
 context: [Story Context]
 ```
+
 **Explanation:**
 (Second grammar concept explanation.)
 
@@ -37,6 +40,7 @@ context: [Story Context]
 # Vocabulary
 
 ## Vocabulary List
+
 ```sectionmeta
 section: Vocabulary
 level: A1
@@ -56,6 +60,7 @@ context: []
 # Verbs
 
 ## [Verb: Infinitive Form]
+
 ```sectionmeta
 section: Verb
 level: A2
@@ -68,21 +73,19 @@ context: []
 **Meaning:** (English meaning and brief note on register/frequency)
 
 ### Präsens (Present)
-| Pronoun   | Conjugation | Example Sentence | English Meaning |
-| --------- | ----------- | ---------------- | --------------- |
-| ich       | ...         | ...              | ...             |
-| du        | ...         | ...              | ...             |
-| er/sie/es | ...         | ...              | ...             |
-| wir       | ...         | ...              | ...             |
-| ihr       | ...         | ...              | ...             |
-| sie/Sie   | ...         | ...              | ...             |
+
+| Pronoun | Conjugation | Example Sentence | English Meaning |
+| ------- | ----------- | ---------------- | --------------- |
+| ich     | ...         | ...              | ...             |
 
 ### Präteritum (Simple Past)
+
 | Pronoun | Conjugation | Example Sentence | English Meaning |
 | ------- | ----------- | ---------------- | --------------- |
 | ich     | ...         | ...              | ...             |
 
 ### Futur I (Future)
+
 | Pronoun | Conjugation | Example Sentence | English Meaning |
 | ------- | ----------- | ---------------- | --------------- |
 | ich     | werde ...   | ...              | ...             |
@@ -92,6 +95,7 @@ context: []
 # Daily Paragraph
 
 ## Daily Paragraph Entry
+
 ```sectionmeta
 section: Daily Paragraph
 level: A2
@@ -108,10 +112,11 @@ context: []
 # Phrases
 
 ## Phrases List
+
 ```sectionmeta
 section: Phrases
 level: A1
-topics: [Idiomatic]
+topics: [Idiomatic, Conjunctions]
 usage: [Common, Colloquial]
 themes: []
 context: []
@@ -124,14 +129,8 @@ context: []
 
 ---
 
-<!-- ========================================================== -->
-<!--                 CONTROLLED VOCABULARY LISTS                 
+<!-- ==========================================================
 # Allowed Values (for all sectionmeta blocks)
-
-## level
-# - A1
-# - A2
-# - B1
 
 ## section
 # - Grammar Concept
@@ -140,9 +139,18 @@ context: []
 # - Daily Paragraph
 # - Phrases
 
+## level
+# - A1
+# - A2
+# - B1
+# - B2
+# - C1
+# - C2
+
 ## topics
 # - Nouns
 # - Adjectives
+# - Adverbs
 # - Verbs Grammar
 # - Word Order
 # - Prepositions
@@ -151,6 +159,7 @@ context: []
 # - Modal Verbs
 # - Comparison
 # - Pronouns
+# - Conjunctions
 # - Idiomatic
 
 ## usage
@@ -158,6 +167,7 @@ context: []
 # - Colloquial
 # - Formal
 # - Idiomatic
+# - Rare
 
 ## themes
 # - Daily Life
@@ -166,22 +176,27 @@ context: []
 # - Work
 # - Weather
 # - Food
+# - Family
+# - Story Context
+# - Education
+# - Nature
+# - Health
 
 ## context
 # - Harry Potter
 # - Book Based Learning
 # - Story Context
+# - Textbook Context
+# - Real Conversations
+========================================================== -->
 
-<!-- ========================================================== -->
-
-
-<!-- ========================================================== -->
-<!-- Notes:
-1. Each subsection (##) must have one and only one sectionmeta block.
-2. Keys: section, level, topics, usage, themes, context (exact order required).
-3. Values must come from the lists above.
-4. Arrays (e.g., topics: [Word Order, Tenses]) use Title Case and single spaces.
-5. Parser will split on H2 headings and read sectionmeta immediately following.
-6. Front matter is global info only—no tags or section-level metadata appear there.
-7. Maintain this structure exactly for consistent parsing and generation.
+<!-- ==========================================================
+Notes:
+1. Each subsection (##) must include exactly one sectionmeta block.
+2. Keys must appear in this order: section, level, topics, usage, themes, context.
+3. Values must come from the allowed lists above.
+4. Arrays (e.g., topics: [Word Order, Tenses]) use Title Case and single spaces after commas.
+5. The parser splits on H2 headings and reads the sectionmeta immediately following.
+6. Top front matter is global info only—no section-level metadata appears there.
+7. Empty arrays are allowed (e.g., themes: []).
 ========================================================== -->

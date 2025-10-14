@@ -1,5 +1,5 @@
 ---
-title: "Daily Paragraph: 2025-10-12"
+title: "Daily Paragraph — 2025-10-12"
 date: "2025-10-12"
 level: "A2"
 topics: ["word-order", "tenses", "adverbs"]

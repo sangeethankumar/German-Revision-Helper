@@ -1,5 +1,5 @@
 ---
-title: "Phrases: 2025-10-12"
+title: "Phrases — 2025-10-12"
 date: "2025-10-12"
 level: "A1"
 topics: ["idiomatic"]
